@@ -1,11 +1,11 @@
 public class Main {
     public static void main(String[] args) {
         
-        Quarto quarto001 = new Quarto(100, "simples");
-        Quarto quarto002 = new Quarto(101, "duplo");
-        Quarto quarto003 = new Quarto(102, "suite");
-
-        // Menu menu = new Menu();
+        Quarto[] quarto = {
+            new Quarto(100, "simples"),
+            new Quarto(101, "duplo"),
+            new Quarto(100, "suite")
+        };
 
         while(true){
             Menu menu = new Menu();
@@ -16,7 +16,7 @@ public class Main {
             }
 
         }
-        
+
     }
 
 }
