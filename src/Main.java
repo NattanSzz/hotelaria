@@ -5,5 +5,9 @@ public class Main {
         Quarto quarto002 = new Quarto(101, "duplo");
         Quarto quarto003 = new Quarto(102, "suite");
 
+        Menu menu = new Menu();
+
+        System.out.println(menu.opcao);
+
     }
 }
