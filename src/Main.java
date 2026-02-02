@@ -4,7 +4,7 @@ public class Main {
         Quarto[] quarto = {
             new Quarto(100, "simples"),
             new Quarto(101, "duplo"),
-            new Quarto(100, "suite")
+            new Quarto(102, "suite")
         };
 
         while(true){
@@ -13,6 +13,10 @@ public class Main {
                 break;
             }else if(menu.opcao == 0){
                 menu = new Menu();
+            }else if(menu.opcao == 1){
+                for(Quarto Q : quarto){
+                    Q.About();
+                }
             }
 
         }
