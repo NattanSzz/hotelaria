@@ -8,7 +8,7 @@ public class Menu {
 
         Scanner scam = new Scanner(System.in);
 
-        System.out.println("1 - Listar Quartos Disponiveis.");
+        System.out.println("1 - Listar Quartos.");
         System.out.println("2 - Fazer Reserva.");
         System.out.println("3 - Fazer Check-in.");
         System.out.println("4 - Fazer Check-out.");
