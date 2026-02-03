@@ -12,4 +12,12 @@ public class Hospede {
         this.telefone = telefone;
     }
 
+    public boolean ProcurarUsuario(int cpf){
+        if(cpf == this.cpf){
+            return true;
+        }else{
+            return false;
+        }
+    }
+
 }

@@ -12,6 +12,8 @@ public class Reserva {
         this.dias = dias;
         this.ativa = true;
 
+        quarto.ocupado = true;
+
     }
 
     public void CancelarReserva(){

@@ -3,7 +3,7 @@ public class Quarto {
     private int numero;
     private String tipo;
     private double preco;
-    private boolean ocupado;
+    public boolean ocupado;
 
     public Quarto(int numero, String tipo){
 
@@ -31,6 +31,14 @@ public class Quarto {
         System.out.printf("%nPreço do Quarto: %.2f", this.preco);
         System.out.printf("%nEstado: %s", ocupado ? "Ocupado" : "Livre");
         System.out.println("\n" + "-".repeat(30));
+    }
+
+    public boolean ProcurarQuarto(int numero){
+        if(numero == this.numero){
+            return true;
+        }else{
+            return false;
+        }
     }
     
 }
